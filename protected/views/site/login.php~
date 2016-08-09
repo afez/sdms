@@ -1,0 +1,33 @@
+
+
+      
+<?php $form=$this->beginWidget('CActiveForm', array(
+	'id'=>'login-form',
+	'enableClientValidation'=>true,
+        'htmlOptions'=>array(
+                 'class'=>'form-signin',
+                ),
+	'clientOptions'=>array(
+		'validateOnSubmit'=>true,
+	),
+)); ?>
+        <h2 class="form-signin-heading">LOG IN</h2>
+        <div class="login-wrap">
+            <div class="user-login-info">
+          <?php echo $form->textField($model,'username', array('placeholder'=>'username or Email', 'class'=>'form-control')); ?>
+		<?php echo $form->error($model,'username'); ?>
+               
+                <input type="password" class="form-control" placeholder="Password">
+            </div>
+          
+            <button class="btn btn-lg btn-login btn-block" type="submit">Sign in</button>
+
+            
+
+        </div>
+
+         
+
+      <?php $this->endWidget(); ?>
+
+    

@@ -1,0 +1,130 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 2, 2016, 12:51:36 AM
+    Author     : felician
+*/
+
+
+.fixed-width #container .header {
+    width: 90%;
+    left: auto;
+    right: auto;
+    position: fixed;
+
+    z-index: 905;
+    top: 0;
+    border-bottom: 2px solid #999;
+    border-bottom: 1px solid rgba(0,0,0,.3);
+    box-shadow: -11px 12px 23px rgba(0,0,0,.1);
+    background: #cecece !important;
+    width: 100%;
+}
+
+body {
+
+
+    font-family: 'Open Sans',sans-serif;
+
+}
+.no-border {
+    border-bottom: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1FB5AD;
+}
+.panel-heading {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1FB5AD;
+}
+.panel-body {
+    padding: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1FB5AD;
+
+}
+.login-body {
+    background-image: url("../images/login.jpg");
+    // background-color: #F1F1F1;
+}
+.user-login-info {
+    background: #F7F7F7;
+}
+
+.form-horizontal .form-group {
+    margin-left: -1px;
+    margin-right: -15px;
+}
+.fixed-width {
+    background: #F1F1F1;
+}
+.badge.bg-warning {
+    background: red;
+}
+.grid-view table.items th, .grid-view table.items td {
+    border: 1px #B5B6D6 solid; 
+}
+.well{
+    background: #fff;
+}
+.btn-primary {
+
+    margin-bottom: 20px;
+}
+.nav-tabs {
+    background: #e7ebee;
+    border-bottom: 1px solid #2153AF;
+}
+
+.btn {
+    border: none;
+    padding: 6px 12px;
+    border-bottom: 2px solid;
+    transition: border-color 0.1s ease-in-out 0s, background-color 0.1s ease-in-out 0s;
+    outline: none;
+    border-radius: 3px;
+    background-clip: padding-box;
+}
+.btn-default, .wizard-cancel, .wizard-back {
+    background-color: #90a4ae;
+    border-color: #607d8b;
+    color: #fff;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    border-radius: 4px;
+    -webkit-user-select: none;
+
+}
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.form-signin h2.form-signin-heading {
+
+    background: #FDFDFD;
+}
+.terques-bg {
+    background: rgba(204, 200, 189, 0);
+}
+.orange {
+    background: #1fb5ac !important;
+}
